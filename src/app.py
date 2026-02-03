@@ -24,10 +24,10 @@ rolazos = []
 fama = []
 duracion = []
 
-for pistas in top10['tracks'][0:10]:
-    rolazos.append(tracks['name'])
-    fama.append(tracks['popularity'])
-    duracion.append(tracks['duration_ms'])
+for pista in top10['pistas'][0:10]:
+    rolazos.append(pistas['name'])
+    fama.append(pistas['popularity'])
+    duracion.append(pistas['duration_ms'])
 
 data = {
     "Canciones": rolazos,
